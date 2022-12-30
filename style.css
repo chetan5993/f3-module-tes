@@ -1,0 +1,140 @@
+
+body{
+    padding: 2rem;
+}
+
+
+.Ip-container{
+    padding: 10px
+}
+
+.container span {
+    font-weight: 700;
+    font-size: 34px;
+    color: #000000;
+}
+
+
+.btn{
+    margin-top: 1rem;
+    background-color: #000000;
+    color: white;
+    padding: 10px 100px ;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.upper-Container span{
+    font-weight: 700;
+    font-size: 34px;
+    color: #000000;
+}
+.upper-Container div{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+.info-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.down{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    justify-content: space-around;
+} 
+.up{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    justify-content: space-around;
+}
+.info{
+    flex: 1;
+}
+
+.map{
+    margin-top: 1.9rem;
+}
+
+.lower-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.lower-container span{
+    font-weight: 700;
+    font-size: 34px;
+    color: #000000;
+}
+.lower-container div{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    height: 4rem;
+}
+.post-container{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.searchbar{
+    display: flex;
+    border: 3px solid #000000;
+    padding: 1rem ;
+    border-radius: 10px;
+    gap: 0.5rem;
+    align-items: center;
+}
+.searchbar input{
+    color: black;
+    font-size: large;
+    width: 90%;
+    outline: none;
+    border: none;
+}
+
+.card-container{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 47%;
+    border: 3px solid #000000;
+    padding: 1rem;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+.card div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 60px;
+}
+.card span{
+    font-weight: 700;
+    font-size: 34px;
+    color: #000000;
+}
+
+p{
+    font-weight: 400;
+    font-size: 30px;
+    color: #000000;
+}
